@@ -2,7 +2,7 @@
    and parse the data from the character device file to run a
    CPU fan using the GPIO driver 
    The service can be manually brought up using
-   /bin/service up /service/bmp085 -label bmp085.3.77 -dev /dev/bmp085b3s77 -args 'bus=3 address=0x77' 
+   /bin/service up /service/bmp085 -label bmp085.3.77 -dev /dev/bmp085b3s77 -args 'bus=3 address=0x77'
 */
 
 #include <stdio.h>
