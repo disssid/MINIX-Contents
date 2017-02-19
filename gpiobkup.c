@@ -30,12 +30,6 @@
 
 /* local headers */
 
-
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <sys/cdefs.h>
-#include <lib.h>
-
 /* used for logging */
 static struct log log = {
 	.name = "gpio",
@@ -43,7 +37,6 @@ static struct log log = {
 	.log_func = default_log
 };
 
-#define GPIO_UPDATE 1
 #define GPIO_CB_READ 0
 #define GPIO_CB_INTR_READ 1
 #define GPIO_CB_ON 2
@@ -263,6 +256,7 @@ static ssize_t
 	struct gpio_cbdata *gpio_cbdata = (struct gpio_cbdata *) cbdata;
 	assert(gpio_cbdata->gpio != NULL);
 	
+	printf("inode value : %p");
 	if (gpio_cbdata->type == GPIO_CB_ON
 	    || gpio_cbdata->type == GPIO_CB_OFF) {
 		/* turn on or off */
@@ -302,37 +296,7 @@ static ssize_t
 static void
 message_hook(message * m, int __unused ipc_status)
 {
-	message recvm = *m;
-	struct inode *gpionode;
-	char gpioname[10];
-	char *ptr;
-	int retval,r;
-	endpoint_t caller;
-
-	if(recvm.m_type == GPIO_UPDATE){
-		printf("GPIO : received command from gpiodriver : GPIO# : %d , value : %d\n",recvm.m_m1.m1i1,recvm.m_m1.m1i2);
-		if(recvm.m_m1.m1i2 == 1)
-			snprintf(gpioname,10,"GPIO%dOn",recvm.m_m1.m1i1);
-		else if (recvm.m_m1.m1i2 == 0)
-			snprintf(gpioname,10,"GPIO%dOff",recvm.m_m1.m1i1);
-		else{
-			printf("Error! Invalid value");
-			exit(-1);		
-		}
-		gpionode = get_inode_by_name(get_root_inode(), gpioname);
-		//printf("inode of the GPIO : %s received, inode name : %s\n",gpioname,get_inode_name(gpionode));
-		retval = read_hook(gpionode, ptr, 4096, 0, get_inode_cbdata(gpionode));
-		caller = recvm.m_source;
-		recvm.m_type = GPIO_UPDATE;
-		recvm.m_m1.m1i1 = 1;
-
-		r = ipc_sendnb(caller, &recvm);
-		if (r != OK) {
-			log_warn(&log, "sendnb() failed\n");
-		}
-	}
-	else
-		gpio_intr_message(m);
+	gpio_intr_message(m);
 }
 
 int
