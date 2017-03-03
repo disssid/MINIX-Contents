@@ -47,8 +47,8 @@ int receiveData(){
 
 void main (){
         int r,epval,gpionum,gpiovalue;
-        //gpio_ep = getendpoint(299);
-        epval = minix_rs_lookup("i2c",gpio_ep);
+        gpio_ep = getendpoint_name("gpio");
+        //epval = minix_rs_lookup("i2c",gpio_ep);
         printf("gpioDriver : endpoint of GPIO : %d\n",epval);
         printf("\nEnter the GPIO number : ");
         scanf("%d",&gpionum);
