@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <strings.h>
 #include "msg.h"
-
+#define DS_MAX_KEYLEN 80
 // message data structure (OS define type)
 message m;
 // tempControl process endpoint (OS defined type)
@@ -79,6 +79,7 @@ int serviceup(){
         serv_stat = system("/bin/service up /service/bmp085 -label bmp085.3.77 -dev /dev/bmp085b3s77 -args 'bus=3 address=0x77'");
         return serv_stat;
 }
+
 /**************************************************************
 *       main function                                                                                     *
 ***************************************************************/
@@ -90,7 +91,8 @@ void main(int argc, char **argv){
         initialize();
         printf("SENSOR: tempCnt_ep: %d\n", tempCnt_ep);
         memset(&m, 0, sizeof(m));
-        bmp_ep = getendpoint(347);
+        bmp_ep = getendpoint_name("bmp085");
+        //bmp_ep = bmpdriver_endpoint();
         printf("SENSOR: bmp_ep: %d\n", bmp_ep);
         while(1){
                 temperatureValue = sendrecBMPDriver(0);
