@@ -91,6 +91,7 @@ void main(int argc, char **argv){
         initialize();
         printf("SENSOR: tempCnt_ep: %d\n", tempCnt_ep);
         memset(&m, 0, sizeof(m));
+	//get the endpoint from the driver name
         bmp_ep = getendpoint_name("bmp085");
         //bmp_ep = bmpdriver_endpoint();
         printf("SENSOR: bmp_ep: %d\n", bmp_ep);
