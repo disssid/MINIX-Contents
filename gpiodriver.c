@@ -12,11 +12,12 @@ Program to trigger GPIO functionality using IPC
 #include <stdlib.h>
 #include <strings.h>
 #include "msg.h"
+#define GPIO_UPDATE 1
 
 //declarations related to IPC - START//
 // message data structure (OS define type)
 message m;
-// tempControl process endpoint (OS defined type)
+// gpio process endpoint (OS defined type)
 endpoint_t *gpio_ep;
 int i = 0;
 int getendpoint_name(char *proc_name);
