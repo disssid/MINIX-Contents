@@ -1,0 +1,1481 @@
+﻿root@beaglebone:~/shared-scenario/linux-scenario# ./scenario
+tempSen_pid 1322, tempCnt_pid 1323, heatAct_pid 1324, alarmAct_pid 1325
+heatActuator is loaded[  212.554918] i2c i2c-1: Failed to register i2c client bmp085 at 0x77 (-16)
+
+tempContol is loaded
+alarmActuator is loaded
+webInterface is loaded
+socket() or bind(): Address already in use
+parent: child process(1326) terminated with exit status 256
+tempSensor is loaded
+Current Temperature: 238
+tempSensor: sending 238
+
+ Sensor Data : 23.8
+tempControl: received sensor data: 23.8, current desired temperature 25.0
+
+Delta is : 1.2tempControl: we need to turn the fan off
+heatActuator: old_status=-1, current_status=0
+Current Temperature: 238
+tempSensor: sending 238
+
+ Sensor Data : 23.8
+tempControl: received sensor data: 23.8, current desired temperature 25.0
+
+Delta is : 1.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 238
+tempSensor: sending 238
+
+ Sensor Data : 23.8
+tempControl: received sensor data: 23.8, current desired temperature 25.0
+
+Delta is : 1.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 238
+tempSensor: sending 238
+
+ Sensor Data : 23.8
+tempControl: received sensor data: 23.8, current desired temperature 25.0
+
+Delta is : 1.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 238
+tempSensor: sending 238
+
+ Sensor Data : 23.8
+tempControl: received sensor data: 23.8, current desired temperature 25.0
+
+Delta is : 1.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=0, current_status=1
+Current Temperature: 257
+tempSensor: sending 257
+
+ Sensor Data : 25.7
+tempControl: received sensor data: 25.7, current desired temperature 25.0
+
+Delta : 0.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 260
+tempSensor: sending 260
+
+ Sensor Data : 26.0
+tempControl: received sensor data: 26.0, current desired temperature 25.0
+
+Delta : 1.0
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 262
+tempSensor: sending 262
+
+ Sensor Data : 26.2
+tempControl: received sensor data: 26.2, current desired temperature 25.0
+
+Delta : 1.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 263
+tempSensor: sending 263
+
+ Sensor Data : 26.3
+tempControl: received sensor data: 26.3, current desired temperature 25.0
+
+Delta : 1.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 259
+tempSensor: sending 259
+
+ Sensor Data : 25.9
+tempControl: received sensor data: 25.9, current desired temperature 25.0
+
+Delta : 0.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 255
+tempSensor: sending 255
+
+ Sensor Data : 25.5
+tempControl: received sensor data: 25.5, current desired temperature 25.0
+
+Delta : 0.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=-1, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 250
+tempSensor: sending 250
+
+ Sensor Data : 25.0
+tempControl: received sensor data: 25.0, current desired temperature 25.0
+Current Temperature: 250
+tempSensor: sending 250
+
+ Sensor Data : 25.0
+tempControl: received sensor data: 25.0, current desired temperature 25.0
+Current Temperature: 249
+tempSensor: sending 249
+
+ Sensor Data : 24.9
+tempControl: received sensor data: 24.9, current desired temperature 25.0
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 249
+tempSensor: sending 249
+
+ Sensor Data : 24.9
+tempControl: received sensor data: 24.9, current desired temperature 25.0
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 248
+tempSensor: sending 248
+
+ Sensor Data : 24.8
+tempControl: received sensor data: 24.8, current desired temperature 25.0
+
+Delta is : 0.2tempControl: we need to turn the fan off
+heatActuator: old_status=1, current_status=0
+Current Temperature: 248
+tempSensor: sending 248
+
+ Sensor Data : 24.8
+tempControl: received sensor data: 24.8, current desired temperature 25.0
+
+Delta is : 0.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 248
+tempSensor: sending 248
+
+ Sensor Data : 24.8
+tempControl: received sensor data: 24.8, current desired temperature 25.0
+
+Delta is : 0.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 248
+tempSensor: sending 248
+
+ Sensor Data : 24.8
+tempControl: received sensor data: 24.8, current desired temperature 25.0
+
+Delta is : 0.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 248
+tempSensor: sending 248
+
+ Sensor Data : 24.8
+tempControl: received sensor data: 24.8, current desired temperature 25.0
+
+Delta is : 0.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 248
+tempSensor: sending 248
+
+ Sensor Data : 24.8
+tempControl: received sensor data: 24.8, current desired temperature 25.0
+
+Delta is : 0.2tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 247
+tempSensor: sending 247
+
+ Sensor Data : 24.7
+tempControl: received sensor data: 24.7, current desired temperature 25.0
+
+Delta is : 0.3tempControl: we need to turn the fan off
+heatActuator: old_status=0, current_status=0
+Current Temperature: 249
+tempSensor: sending 249
+
+ Sensor Data : 24.9
+tempControl: received sensor data: 24.9, current desired temperature 25.0
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+
+//Comment : the fan turns on here
+Current Temperature: 258
+tempSensor: sending 258
+
+ Sensor Data : 25.8
+tempControl: received sensor data: 25.8, current desired temperature 25.0
+
+Delta : 0.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=0, current_status=1
+Current Temperature: 260
+tempSensor: sending 260
+
+ Sensor Data : 26.0
+tempControl: received sensor data: 26.0, current desired temperature 25.0
+
+Delta : 1.0
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 261
+tempSensor: sending 261
+
+ Sensor Data : 26.1
+tempControl: received sensor data: 26.1, current desired temperature 25.0
+
+Delta : 1.1
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 262
+tempSensor: sending 262
+
+ Sensor Data : 26.2
+tempControl: received sensor data: 26.2, current desired temperature 25.0
+
+Delta : 1.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 262
+tempSensor: sending 262
+
+ Sensor Data : 26.2
+tempControl: received sensor data: 26.2, current desired temperature 25.0
+
+Delta : 1.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 263
+tempSensor: sending 263
+
+ Sensor Data : 26.3
+tempControl: received sensor data: 26.3, current desired temperature 25.0
+
+Delta : 1.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 263
+tempSensor: sending 263
+
+ Sensor Data : 26.3
+tempControl: received sensor data: 26.3, current desired temperature 25.0
+
+Delta : 1.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 264
+tempSensor: sending 264
+
+ Sensor Data : 26.4
+tempControl: received sensor data: 26.4, current desired temperature 25.0
+
+Delta : 1.4
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 265
+tempSensor: sending 265
+
+ Sensor Data : 26.5
+tempControl: received sensor data: 26.5, current desired temperature 25.0
+
+Delta : 1.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 265
+tempSensor: sending 265
+
+ Sensor Data : 26.5
+tempControl: received sensor data: 26.5, current desired temperature 25.0
+
+Delta : 1.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 266
+tempSensor: sending 266
+
+ Sensor Data : 26.6
+tempControl: received sensor data: 26.6, current desired temperature 25.0
+
+Delta : 1.6
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 266
+tempSensor: sending 266
+
+ Sensor Data : 26.6
+tempControl: received sensor data: 26.6, current desired temperature 25.0
+
+Delta : 1.6
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 267
+tempSensor: sending 267
+
+ Sensor Data : 26.7
+tempControl: received sensor data: 26.7, current desired temperature 25.0
+
+Delta : 1.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 267
+tempSensor: sending 267
+
+ Sensor Data : 26.7
+tempControl: received sensor data: 26.7, current desired temperature 25.0
+
+Delta : 1.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 267
+tempSensor: sending 267
+
+ Sensor Data : 26.7
+tempControl: received sensor data: 26.7, current desired temperature 25.0
+
+Delta : 1.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 268
+tempSensor: sending 268
+
+ Sensor Data : 26.8
+tempControl: received sensor data: 26.8, current desired temperature 25.0
+
+Delta : 1.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 268
+tempSensor: sending 268
+
+ Sensor Data : 26.8
+tempControl: received sensor data: 26.8, current desired temperature 25.0
+
+Delta : 1.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 268
+tempSensor: sending 268
+
+ Sensor Data : 26.8
+tempControl: received sensor data: 26.8, current desired temperature 25.0
+
+Delta : 1.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 268
+tempSensor: sending 268
+
+ Sensor Data : 26.8
+tempControl: received sensor data: 26.8, current desired temperature 25.0
+
+Delta : 1.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 268
+tempSensor: sending 268
+
+ Sensor Data : 26.8
+tempControl: received sensor data: 26.8, current desired temperature 25.0
+
+Delta : 1.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 268
+tempSensor: sending 268
+
+ Sensor Data : 26.8
+tempControl: received sensor data: 26.8, current desired temperature 25.0
+
+Delta : 1.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+
+//Comment : the alarm is turned on here
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=0, current_status=1
+Current Temperature: 269
+tempSensor: sending 269
+
+ Sensor Data : 26.9
+tempControl: received sensor data: 26.9, current desired temperature 25.0
+
+Delta : 1.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 268
+tempSensor: sending 268
+
+ Sensor Data : 26.8
+tempControl: received sensor data: 26.8, current desired temperature 25.0
+
+Delta : 1.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 265
+tempSensor: sending 265
+
+ Sensor Data : 26.5
+tempControl: received sensor data: 26.5, current desired temperature 25.0
+
+Delta : 1.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 264
+tempSensor: sending 264
+
+ Sensor Data : 26.4
+tempControl: received sensor data: 26.4, current desired temperature 25.0
+
+Delta : 1.4
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 263
+tempSensor: sending 263
+
+ Sensor Data : 26.3
+tempControl: received sensor data: 26.3, current desired temperature 25.0
+
+Delta : 1.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 263
+tempSensor: sending 263
+
+ Sensor Data : 26.3
+tempControl: received sensor data: 26.3, current desired temperature 25.0
+
+Delta : 1.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 262
+tempSensor: sending 262
+
+ Sensor Data : 26.2
+tempControl: received sensor data: 26.2, current desired temperature 25.0
+
+Delta : 1.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 261
+tempSensor: sending 261
+
+ Sensor Data : 26.1
+tempControl: received sensor data: 26.1, current desired temperature 25.0
+
+Delta : 1.1
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 261
+tempSensor: sending 261
+
+ Sensor Data : 26.1
+tempControl: received sensor data: 26.1, current desired temperature 25.0
+
+Delta : 1.1
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 260
+tempSensor: sending 260
+
+ Sensor Data : 26.0
+tempControl: received sensor data: 26.0, current desired temperature 25.0
+
+Delta : 1.0
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 260
+tempSensor: sending 260
+
+ Sensor Data : 26.0
+tempControl: received sensor data: 26.0, current desired temperature 25.0
+
+Delta : 1.0
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 259
+tempSensor: sending 259
+
+ Sensor Data : 25.9
+tempControl: received sensor data: 25.9, current desired temperature 25.0
+
+Delta : 0.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 259
+tempSensor: sending 259
+
+ Sensor Data : 25.9
+tempControl: received sensor data: 25.9, current desired temperature 25.0
+
+Delta : 0.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 259
+tempSensor: sending 259
+
+ Sensor Data : 25.9
+tempControl: received sensor data: 25.9, current desired temperature 25.0
+
+Delta : 0.9
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 258
+tempSensor: sending 258
+
+ Sensor Data : 25.8
+tempControl: received sensor data: 25.8, current desired temperature 25.0
+
+Delta : 0.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 258
+tempSensor: sending 258
+
+ Sensor Data : 25.8
+tempControl: received sensor data: 25.8, current desired temperature 25.0
+
+Delta : 0.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 258
+tempSensor: sending 258
+
+ Sensor Data : 25.8
+tempControl: received sensor data: 25.8, current desired temperature 25.0
+
+Delta : 0.8
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 257
+tempSensor: sending 257
+
+ Sensor Data : 25.7
+tempControl: received sensor data: 25.7, current desired temperature 25.0
+
+Delta : 0.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 257
+tempSensor: sending 257
+
+ Sensor Data : 25.7
+tempControl: received sensor data: 25.7, current desired temperature 25.0
+
+Delta : 0.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 257
+tempSensor: sending 257
+
+ Sensor Data : 25.7
+tempControl: received sensor data: 25.7, current desired temperature 25.0
+
+Delta : 0.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 257
+tempSensor: sending 257
+
+ Sensor Data : 25.7
+tempControl: received sensor data: 25.7, current desired temperature 25.0
+
+Delta : 0.7
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 256
+tempSensor: sending 256
+
+ Sensor Data : 25.6
+tempControl: received sensor data: 25.6, current desired temperature 25.0
+
+Delta : 0.6
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 256
+tempSensor: sending 256
+
+ Sensor Data : 25.6
+tempControl: received sensor data: 25.6, current desired temperature 25.0
+
+Delta : 0.6
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 256
+tempSensor: sending 256
+
+ Sensor Data : 25.6
+tempControl: received sensor data: 25.6, current desired temperature 25.0
+
+Delta : 0.6
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 255
+tempSensor: sending 255
+
+ Sensor Data : 25.5
+tempControl: received sensor data: 25.5, current desired temperature 25.0
+
+Delta : 0.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 255
+tempSensor: sending 255
+
+ Sensor Data : 25.5
+tempControl: received sensor data: 25.5, current desired temperature 25.0
+
+Delta : 0.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 255
+tempSensor: sending 255
+
+ Sensor Data : 25.5
+tempControl: received sensor data: 25.5, current desired temperature 25.0
+
+Delta : 0.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 255
+tempSensor: sending 255
+
+ Sensor Data : 25.5
+tempControl: received sensor data: 25.5, current desired temperature 25.0
+
+Delta : 0.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 255
+tempSensor: sending 255
+
+ Sensor Data : 25.5
+tempControl: received sensor data: 25.5, current desired temperature 25.0
+
+Delta : 0.5
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 254
+tempSensor: sending 254
+
+ Sensor Data : 25.4
+tempControl: received sensor data: 25.4, current desired temperature 25.0
+
+Delta : 0.4
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 254
+tempSensor: sending 254
+
+ Sensor Data : 25.4
+tempControl: received sensor data: 25.4, current desired temperature 25.0
+
+Delta : 0.4
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 254
+tempSensor: sending 254
+
+ Sensor Data : 25.4
+tempControl: received sensor data: 25.4, current desired temperature 25.0
+
+Delta : 0.4
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 254
+tempSensor: sending 254
+
+ Sensor Data : 25.4
+tempControl: received sensor data: 25.4, current desired temperature 25.0
+
+Delta : 0.4
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 254
+tempSensor: sending 254
+
+ Sensor Data : 25.4
+tempControl: received sensor data: 25.4, current desired temperature 25.0
+
+Delta : 0.4
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 253
+tempSensor: sending 253
+
+ Sensor Data : 25.3
+tempControl: received sensor data: 25.3, current desired temperature 25.0
+
+Delta : 0.3
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 252
+tempSensor: sending 252
+
+ Sensor Data : 25.2
+tempControl: received sensor data: 25.2, current desired temperature 25.0
+
+Delta : 0.2
+tempControl: we need to turn the fan on
+heatActuator: old_status=1, current_status=1
+tempControl: we need turn the alarm on
+alarmActuator: old_status=1, current_status=1
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=1, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+
+//The alarm and the fan turns off here
+Current Temperature: 250
+tempSensor: sending 250
+
+ Sensor Data : 25.0
+
+tempControl: received sensor data: 25.0, current desired temperature 25.0
+Current Temperature: 250
+tempSensor: sending 250
+
+ Sensor Data : 25.0
+tempControl: received sensor data: 25.0, current desired temperature 25.0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
+Current Temperature: 251
+tempSensor: sending 251
+
+ Sensor Data : 25.1
+tempControl: received sensor data: 25.1, current desired temperature 25.0
+
+Delta : 0.1
+tempControl: we need turn the alarm off
+alarmActuator: old_status=0, current_status=0
