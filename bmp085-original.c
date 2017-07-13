@@ -6,15 +6,6 @@
 #include <minix/i2cdriver.h>
 #include <minix/chardriver.h>
 #include <minix/log.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <sys/cdefs.h>
-#include <lib.h>
-#include <stdlib.h>
-#include <strings.h>
-#include "msg.h"
 
 /* Control Register for triggering a measurement */
 #define CTRL_REG 0xf4
@@ -42,15 +33,6 @@
 #define CMD_TRIG_P_UHR 0xf4
 #define MODE_UHR 0x03
 #define UDELAY_UHR (25500)
-
-//Sid : declarations related to IPC - START//
-// message data structure (OS define type)  
-message m;
-// tempControl process endpoint (OS defined type) 
-endpoint_t tempSen_ep;
-int i = 0;
-int getendpoint_name(char *proc_name);
-//Sid : declarations related to IPC - END//
 
 /* Values for the different modes of operation */
 struct pressure_cmd
@@ -575,64 +557,10 @@ sef_local_startup(void)
 	sef_startup();
 }
 
-//Sid : MESSAGE PASSING IMPLEMENTATION TO SEND SENSOR DATA TO TEMPCONTROL PROCESS - START//
-
-// function for initialization
-int initialize(){
-	memset(&m, 0, sizeof(m));
-	// setup tempSensor endpoint
-	tempSen_ep = getendpoint_name("tempSensor");
-	if(tempSen_ep == -1){
-		printf("BMP: tempSensor endpoint not found\n");
-		return -1;
-	}
-	return 0;
-}
-
-//process of retrieving data from sensor
-int retrieveSensorData(){
-	int r;
-	uint32_t temperature, pressure;
-
-	r = measure(&temperature, &pressure);
-	if (r != OK) {
-		return EIO;
-	}
-	printf("BMP085 : Temperature  	         : %d\n",temperature);
-	return temperature;
-}
-
-// send sensor data to tempSensor process 
-void sendDataToTempSensor(){
-	memset(&m, 0, sizeof(m));
-	m.m_type = SENSOR_UPDATE;
-	m.m_m1.m1i1 = retrieveSensorData();
-
-	printf("SENSOR: send currentTemp: m_type: %d, value: %d\n", m.m_type, m.m_m1.m1i1);
-	ipc_sendnb(tempSen_ep, &m);
-}
-
-// receive command from tempSensor process
-int receiveCommandFromTempSensor(){
-	int r, status;
-	r = ipc_receive(tempSen_ep, &m, &status);
-	printf("SENSOR: receiveTEMPSENSOR: status: %d, m_type: %d, value: %d\n", status, m.m_type, m.m_m1.m1i1);
-	return r;
-}
-
-//Sid : MESSAGE PASSING IMPLEMENTATION TO SEND SENSOR DATA TO TEMPCONTROL PROCESS - END//
-
 int
 main(int argc, char *argv[])
 {
-	int r,retval, init, recv;
-	//Sid : changes related to IPC	
-	char ch;
-	int i = 0;
-	endpoint_t user, caller;
-	message m;
-	int ipc_status;
-	//Sid : changes related to IPC
+	int r;
 
 	env_setargs(argc, argv);
 
@@ -647,48 +575,9 @@ main(int argc, char *argv[])
 		return EXIT_FAILURE;
 	}
 
-	sef_local_startup();	
-/************************************************** Sid : changes related to IPC**************************************************/
-	//chardriver_task(&bmp085_tab);
-	while (TRUE) {
+	sef_local_startup();
 
-		/* Receive Message */
-		r = sef_receive_status(ANY, &m, &ipc_status);
-		if (r != OK) {
-			log_warn(&log, "sef_receive_status() failed\n");
-			continue;
-		}
+	chardriver_task(&bmp085_tab);
 
-		if (is_ipc_notify(ipc_status)) {
-
-			if (m.m_source == DS_PROC_NR) {
-				/* bus driver changed state, update endpoint */
-				i2cdriver_handle_bus_update(&bus_endpoint, bus, address);
-			}
-
-			/* Do not reply to notifications. */
-			continue;
-		}
-		
-		printf("\n ################################ \n");
-		printf("IPC Message received from : %d\n",m.m_source);
-
-		caller = m.m_source;
-		m.m_type = SENSOR_UPDATE;
-		m.m_m1.m1i1 = retrieveSensorData();
-
-		printf("BMP085 : Sending data to : %d\n",caller);
-		printf("BMP085 : Data type       : %d\n",m.m_type);
-		printf("BMP085 : Data  	         : %d\n",m.m_m1.m1i1);
-
-	
-		r = ipc_sendnb(caller, &m);
-		if (r != OK) {
-			log_warn(&log, "sendnb() failed\n");
-			continue;
-		}
-	}
-	exit(1);
-/************************************************** Sid : changes related to IPC**************************************************/
 	return 0;
 }
